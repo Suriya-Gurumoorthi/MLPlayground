@@ -3,7 +3,7 @@ This project is a machine learning model that predicts whether a customer will b
 
 ### Installation:
 If you are new to jupyter notebook, install SHAP package, the rest will be pre installed already.
-Code for SHAP Installation:
+Code for SHAP Installation:<br>
             * pip install shap
         
    
