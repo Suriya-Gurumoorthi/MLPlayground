@@ -14,3 +14,7 @@ pip install numba==0.53.0
 pip install librosa
 ```
    
+### Model
+
+We used aDecision Tree and Random Forest for this project. The model was implemented using the scikit-learn library.<br>
+Also try to use `GridSearchCV` or `RandomizedSearchCV` for hyperparameter Tuning. This would really help you to achieve optimal model.
