@@ -16,5 +16,10 @@ pip install librosa
    
 ### Model
 
-We used aDecision Tree and Random Forest for this project. The model was implemented using the scikit-learn library.<br>
-Also try to use `GridSearchCV` or `RandomizedSearchCV` for hyperparameter Tuning. This would really help you to achieve optimal model.
+We used Decision Tree and Random Forest for this project. The model was implemented using the scikit-learn library.<br>
+Also try to use `GridSearchCV` or `RandomizedSearchCV` for hyperparameter Tuning. This would really help you to achieve optimal model.<br><br>
+The model was trained using 80% of the labeled data and evaluated on the remaining 20%.
+
+### Results
+
+After training the model, we achieved an accuracy value of `63%` and `85%` on the test set on `Decision Tree` and `Random Forest` respectively. I have concluded Random Forest Classifier indicating a good fit to the data. The predictions made by the model were also visually compared to the true values.
